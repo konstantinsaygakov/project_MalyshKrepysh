@@ -136,7 +136,7 @@ $(document).ready(function() {
             $('.modal__lacquer').val($('.catalog__lacquer').eq(i).val());
             $('.modal__case').text($('.catalog__case').eq(i).val());
             $('.overlay, #order').fadeIn('slow');
-        })
+        });
     });
 
     
